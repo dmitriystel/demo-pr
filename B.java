@@ -23,15 +23,6 @@ public class B {
         return getId() == b.getId();
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId());
-    }
-
-    @Override
-    public String toString() {
-        return "B{" +
-                "id=" + id +
-                '}';
-    }
 }
+
+//remove  2 methods
